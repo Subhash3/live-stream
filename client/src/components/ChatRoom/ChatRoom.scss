@@ -1,0 +1,40 @@
+.stream{
+    // border: 2px solid pink;
+    position: relative;
+    width: 60%;
+
+    video{
+        width: 100%;
+        transform: rotateY(180deg);
+        // border: 1px solid lime;
+    }
+
+    p{
+        position: absolute;
+        z-index: 10;
+        top: 20px;
+        left: 20px;
+        background: white;
+        display: inline-block;
+        padding: 10px;
+    }
+}
+
+.stream-and-chat{
+    display: flex;
+    flex-direction: row;
+    max-height: 100vh;
+    
+    .chat-area{
+        // border: 1px solid red;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+
+        .form-and-users{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+}

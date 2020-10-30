@@ -1,0 +1,44 @@
+.message{
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+    background: rgb(36, 55, 138);
+    margin: 2px 5px 5px 5px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    height: fit-content;
+    max-width: 300px;
+    color: white;
+    
+    .info{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3px;
+        // color: black;
+
+        .sender, .receiver{
+            position: relative;
+            text-transform: uppercase;
+            font-size: 11px;
+            margin-bottom: 5px;
+            font-family: 'Times New Roman', Times, serif;
+            width: 40px;
+            // border-bottom: 1px solid #ccc;
+        }
+
+        .receiver{
+            margin-left: auto;
+            margin-right: 3px;
+        }
+
+        .msg-type{
+            font-size: 13px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    }
+
+    .msg-body{
+        font-size: 13px;
+    }
+}
