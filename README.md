@@ -1,15 +1,24 @@
-### Shine's Meet  
+### Live Stream  
 
 ### Todo
 
 ##### Basics
 - [x] Login Form
-- [ ] Signup Form
-- [ ] Form validation (Fronted)
+- [x] Signup Form
+- [x] Form validation (Fronted)
+- [ ] Link sharing.
+- [ ] Raise Hands
+- [ ] Share screen.
+- [ ] Responsiveness
 
 ##### Socket io
-- [ ] Create Socket io server
-- [ ] Handle Socket Connections
-- [ ] Handle Socket disconnections
+- [x] Create Socket io server
+- [x] Handle Socket Connections
+- [x] Handle Socket disconnections
 
 ##### RTC web # Live-stream
+- [x] Capture peer stream
+- [x] Accept calls
+- [x] Connect peers
+- [x] Send stream
+- [ ] Exchange streams
